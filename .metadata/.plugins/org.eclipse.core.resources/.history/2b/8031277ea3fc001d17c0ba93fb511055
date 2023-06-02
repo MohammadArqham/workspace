@@ -1,0 +1,11 @@
+package com.example.apmcProject.model;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="Role")
+public class Role {
+	  @Id
+	  private String id;
+
+	  private ERole name;
+}

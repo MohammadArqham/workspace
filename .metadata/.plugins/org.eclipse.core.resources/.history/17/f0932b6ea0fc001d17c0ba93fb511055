@@ -1,0 +1,5 @@
+package com.example.apmcProject.config;
+
+public class securityConfig extends WebSecurityConfigurer{
+
+}
